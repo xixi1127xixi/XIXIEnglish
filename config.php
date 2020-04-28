@@ -2,10 +2,10 @@
 date_default_timezone_set('PRC');//设置时区
 
 //TOKEN
-define('BOT_TOKEN', 'TOKEN');
+define('BOT_TOKEN', '1229060218:AAGCq6L0SlL0U5kpdZ2JnySJXmJS4TCo0jY');
 
-$bot_id="@机器人ID";//机器人ID
-$bot_name="机器人名称";//机器人名称
+$bot_id="@XIXIEnglish_bot";//机器人ID
+$bot_name="xixi";//机器人名称
 
 //读取传入信息
 $update = json_decode(file_get_contents('php://input') ,true);
